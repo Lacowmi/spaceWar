@@ -14,7 +14,7 @@ public class BulletEnemy : MonoBehaviour
 
     private void OnBecameInvisible()
     {
-        Destroy(gameObject);
+        Destroy(gameObject); //t
     }
 
     private void OnTriggerEnter2D(Collider2D hitInfo)
